@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Personal Site - John Hoyt</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">John Hoyt</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profpic.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Computer Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">John
+            <span class="text-primary">Hoyt</span>
+          </h1>
+          <div class="subheading mb-5">Available Jan - June 2019 · Boston, MA · 978-852-9221 ·
+            <a href="mailto:name@email.com">hoyt.j@husky.neu.edu</a>
+          </div>
+          <p class="lead mb-5">I'm a third year student at Northeastern University working towards a Bachelor of Science in Computer Science. My name is John but most people just call me Jack. I have past experience as a software QA intern and enjoy making projects in various areas of CS. Feel free to check out some of my creations and other interests below.</p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Global Terrorism Database</h3>
+              <div class="subheading mb-3">Co-Creator · <a href="https://hoytj.shinyapps.io/gtdatabase/">Link</a></div>
+              <p>Web app that uses a global database of 170,000 terrorism records from 1970 to 2015. You can sort by attack type, target type, weapon type, intent, related incidents, and more. Web interface made with R and Shiny. Database was obtained on Kaggle, cleaned with Jupyter and Python, then modeled in MySQL. Interface app connected to database through RJDBC. Database hosted online with Amazon Web Services and their Relational Database Service. My friend and I started this project to improve our understanding of databases. I used this as an opportunity to learn R and improve at Python and SQL. Previously the database was hosted on a Linux server but I switched to Amazon RDS because it's free and easy to modify in the future.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2018 - Present</span> <br />
+              <br />
+              <img class="img-fluid img-profile mx-auto mb-2" src="img/gtdwebapp.png" alt="">
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Video Game Data Website</h3>
+              <div class="subheading mb-3">Co-Creator · <a href="www.google.com">Link</a></div>
+              <p>Website that shows gifs and data of over 300 moves in Super Smash Bros Melee. Made with React as an attempt at learning more about JavaScript. Currently focusing on adding more data for less popular characters and updating interface. Implements Facebook's create-react-app which allows you to make a simple react app with no build configuration.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2017 - Present</span> <br />
+              <br />
+              <img class="img-fluid img-profile mx-auto mb-2" src="img/vgframes.png" alt="">
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">2D Arcade-Style Racing Game</h3>
+              <div class="subheading mb-3">Creator · <a href="www.google.com">Link</a></div>
+              <p>One of my first coherent CS projects. I made this game while working as a QA intern at Game Assembly in Manchester. Developed in Unity and programmed in C#. This project taught me of the importance of testing and debugging, and took much longer to complete than expected. The AI can be difficult to beat, I implemented it with a pathfinding algorithm. Sprites and maps were mostly made by myself in Microsoft Paint.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Summer 2015 - Summer 2016</span> <br />
+              <br />
+              <img class="img-fluid img-profile mx-auto mb-2" src="img/2dracingimage.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Northeastern University - College of Computer and Information Science</h3>
+              <div class="subheading mb-3">Bachelor of Science, Computer Science</div>
+              <p>Honors: Dean's List, Dean's Scholarship</p>
+              <p>Courses: Object-Oriented Design, Algorithms and Data Structures, Database Design, Logic and Computation, Discrete Structures, Probability and Statistics, Fundamentals of Computer Science 1 & 2</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2016 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Andover High School</h3>
+              <div class="subheading mb-3">Andover, MA</div>
+              <p>Courses: AP Computer Science, AP Calculus, AP Statistics</p>
+              <p>Activities: Varsity Cross Country Captain, Varsity Track Captain</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2012 - June 2016</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Languages</div>
+          <p>Java, SQL, C++, C#, Python, R</p>
+          <div class="subheading mb-3">Databases</div>
+          <p>MySQL, SQLite, SQL Server, Amazon RDS</p>
+          <div class="subheading mb-3">Frameworks</div>
+          <p>Bootstrap, Reactstrap, Shiny</p>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>In my free time I enjoy reading economics books and listening to progressive rock, hip-hop, and experimental music. When I'm bored I like to sew and design clothes.</p>
+          <p class="mb-0">Competition has been a big part of my life since I was young. I used to play baseball, Yu-Gi-Oh, and run track, but now I just play Super Smash Bros Melee on the Nintendo Gamecube.</p>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Links</h2>
+          <div class="social-icons">
+
+            <a href="https://github.com/postmacode">
+              <i class="fab fa-github"></i>
+            </a>
+            My GitHub, where you can view all my public projects <br />
+            <br />
+            <a href="https://hoytj.shinyapps.io/gtdatabase/">
+              <i class="fas fa-globe"></i>
+            </a>
+            Global Terrorism Database <br />
+            <br />
+            <a href="https://postmacode.github.io/react-gh-pages/">
+              <i class="fas fa-gamepad"></i>
+            </a>
+            Video Game Frame Info <br />
+            <br />
+            <a href="http://www.espn.com/esports/story/_/id/21850385/jack-crush-hoyt-continues-ascent-super-smash-bros-melee">
+              <i class="far fa-address-book"></i>
+            </a>
+            ESPN article <br />
+            <br />
+            <a href="https://www.youtube.com/watch?v=vZ7MUHjeX4A">
+              <i class="fab fa-youtube"></i>
+            </a>
+            YouTube skit I participated in (based on American Psycho) <br />
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
